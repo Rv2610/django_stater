@@ -22,3 +22,6 @@ urlpatterns = [
     path('', include('home.urls')),
 
 ]
+
+"""make sure to run this command to load static files"""
+"""python manage.py collectstatic"""
